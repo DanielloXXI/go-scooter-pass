@@ -277,7 +277,7 @@
 .pluses {
     display: flex;
     flex-direction: column;
-    margin: 0 0 110px 18.19%;
+    margin: 0 0 112px 18.19%;
 }
 
 .pluses__first {
@@ -357,13 +357,13 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
-    margin: 0 0 41px 0;
+    margin: 0 0 36px 0;
 }
 
 .pluses__second-button {
     display: flex;
     width: max-content;
-    padding: 23px 48px;
+    padding: 22px 47px;
     border-radius: 36px;
     background: #FFDE40;
     box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
@@ -398,7 +398,6 @@
     font-weight: 400;
     line-height: 120%;
     max-width: 62.7vw;
-    text-align: center;
 }
 
 .footer__link {
@@ -645,7 +644,6 @@
 }
 
 @media screen and (max-width:767px) {
-
     .content {
         width: max-content;
         margin: 0 auto 0 auto;
@@ -654,6 +652,7 @@
 
     .header {
         padding: 0 0 43px 0;
+        overflow: hidden;
     }
 
     .header__logo {
