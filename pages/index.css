@@ -407,6 +407,12 @@
     text-decoration-color: #C5C5C5;
 }
 
+.footer__link:active,
+.footer__link:visited {
+    text-decoration-line: underline;
+    text-decoration-color: #C5C5C5;
+}
+
 .slider__inactive {
     display: none;
 }
