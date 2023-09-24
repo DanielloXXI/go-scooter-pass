@@ -645,6 +645,13 @@
 }
 
 @media screen and (max-width:767px) {
+
+    .content {
+        width: max-content;
+        margin: 0 auto 0 auto;
+        overflow: hidden;
+    }
+
     .header {
         padding: 0 0 43px 0;
     }
@@ -832,13 +839,21 @@
         left: 0;
     }
 
+    .slide {
+        position: relative;
+    }
+
     .exclusive__card-element {
         position: absolute;
         z-index: 3;
     }
 
     .exclusive__card-element_second {
+        top: -50px;
+        right: 0;
         display: block;
+        width: 85px;
+        height: 85px;
     }
 
     .exclusive__card-element_second_inactive {
@@ -880,7 +895,7 @@
     .slider-list {
         width: 344px;
         height: 344px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .slider-list.grab {
